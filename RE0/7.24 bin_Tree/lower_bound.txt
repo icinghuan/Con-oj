@@ -1,0 +1,6 @@
+b[i] = lower_bound(dp, dp+n, a[i]) - dp + 1;
+*lower_bound(dp, dp+n, a[i]) = a[i];
+
+
+b[i] = lower_bound(dp,dp+n,a[i])-dp+1;
+*lower_bound(dp,dp+n,a[i]) = a[i];
