@@ -29,7 +29,7 @@ void qsort(int l,int r)
             j--;
         }
     }
-    qsort(l,i-2);
+    qsort(l,i-1);
     qsort(i,r);
 }
 
